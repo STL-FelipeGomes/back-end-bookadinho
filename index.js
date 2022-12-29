@@ -1,10 +1,10 @@
 import express from 'express';
 const app = express();
 import cors from 'cors';
-import { books } from './mocks/books';
-import { profiles } from './mocks/profiles';
-import { chats } from './mocks/chats';
-import { notifications } from './mocks/notifications';
+import books from './mocks/books.js';
+import profiles from './mocks/profiles.js';
+import chats from './mocks/chats.js';
+import notifications from './mocks/notifications.js';
 const time = new Date().toISOString();
 const PORT = process.env.PORT || 4000;
 
